@@ -1,7 +1,7 @@
 # Todo:
 
 - 整理readme，跑法基本一致，主要改成supergpqa论文内容，以及一些参数细节改动，查看以下之前kor的readme或者run_example.sh文件基本就能直接跑起来（在./infer/models/__init__.py配置好模型路径/api key）
-- 支持从hf直接load dataset
+- 支持从hf直接load dataset(m-a-p/SuperGPQA)
 - 一些样例结果文件
 - 提交官方leader board tutorial
 - 优化code
