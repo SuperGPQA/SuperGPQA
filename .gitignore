@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+.history
+.vscode
+.mypy_cache
+*temp*
+*tmp*
+*test*
+results/
+results_with_status/
