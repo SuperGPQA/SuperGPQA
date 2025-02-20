@@ -4,9 +4,13 @@
 </h2>
 
 <p align="center">
+  <a href="https://supergpqa.github.io/" style="margin: 0 10px;">🌐 Homepage</a> |
   <a href="https://huggingface.co/datasets/m-a-p/SuperGPQA" style="margin: 0 10px;">🤗 Paper</a> |
+  <a href="TBD" style="margin: 0 10px;">📖 ArXiv</a> |
+  <a href="https://huggingface.co/spaces/m-a-p/SuperGPQA" style="margin: 0 10px;">🏆 Leaderboard</a> |
   <a href="https://github.com/SuperGPQA/SuperGPQA" style="margin: 0 10px;">🐙 GitHub</a>
 </p>
+
 
 This repository contains the evaluation code for the paper "[SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines]()".
 
@@ -111,7 +115,7 @@ python eval/eval.py --evaluate_all --excel_output --output_dir results/five-shot
 ## 📫 Contact
 Xinrun Du: duxinrun2000@gmail.com
 
-Ge Zhang: gezhang@umich.edu
+Ge Zhang: zhangge.eli@bytedance.com
 
 ## 📚 Citation
 
