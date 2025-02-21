@@ -5,8 +5,8 @@
 
 <p align="center">
   <a href="https://supergpqa.github.io/" style="margin: 0 10px;">🌐 Homepage</a> |
-  <a href="https://huggingface.co/datasets/m-a-p/SuperGPQA" style="margin: 0 10px;">🤗 Paper</a> |
-  <a href="TBD" style="margin: 0 10px;">📖 ArXiv</a> |
+  <a href="https://huggingface.co/datasets/m-a-p/SuperGPQA" style="margin: 0 10px;">🤗 Dataset</a> |
+  <a href="https://arxiv.org/abs/2502.14739" style="margin: 0 10px;">📖 ArXiv</a> |
   <a href="https://huggingface.co/spaces/m-a-p/SuperGPQA" style="margin: 0 10px;">🏆 Leaderboard</a> |
   <a href="https://github.com/SuperGPQA/SuperGPQA" style="margin: 0 10px;">🐙 GitHub</a>
 </p>
@@ -30,6 +30,7 @@ This repository contains the evaluation code for the paper "[SuperGPQA: Scaling 
 The table below presents the performance of various models across different tasks and difficulty levels. The models are categorized into three main groups: Reasoning Models, Chat Models, and Base Models. Each model is evaluated based on overall performance (sample, subfield, field, and discipline), as well as performance on easy, medium, and hard samples. The performance scores are provided to give an overview of how each model performs across different aspects, allowing for a comparison of strengths and weaknesses.
 
 All results can be viewed on the leaderboard.
+
 ** Reasoning Models **
 | Model                          | Overall (sample) | Overall (subfield) | Overall (field) | Overall (discipline) | Easy (sample) | Middle (sample) | Hard (sample) |
 |--------------------------------|------------------|--------------------|-----------------|----------------------|---------------|-----------------|---------------|
@@ -157,23 +158,17 @@ python eval/eval.py --evaluate_all --excel_output --output_dir results/five-shot
 ```
 
 
-## 📫 Contact
-Xinrun Du: duxinrun2000@gmail.com
-
-Ge Zhang: zhangge.eli@bytedance.com
-
 ## 📚 Citation
 
 **BibTeX:**
 ```bibtex
-@misc{,
-    title={SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines}, 
-    author={M-A-P, ByteDance.Inc, 2077.AI},
-    year={2025},
-    eprint={TBD},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI},
-    url={TBD}, 
+@misc{pteam2025supergpqascalingllmevaluation,
+      title={SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines}, 
+      author={P Team and Xinrun Du and Yifan Yao and Kaijing Ma and Bingli Wang and Tianyu Zheng and Kang Zhu and Minghao Liu and Yiming Liang and Xiaolong Jin and Zhenlin Wei and Chujie Zheng and Kaixing Deng and Shuyue Guo and Shian Jia and Sichao Jiang and Yiyan Liao and Rui Li and Qinrui Li and Sirun Li and Yizhi Li and Yunwen Li and Dehua Ma and Yuansheng Ni and Haoran Que and Qiyao Wang and Zhoufutu Wen and Siwei Wu and Tianshun Xing and Ming Xu and Zhenzhu Yang and Zekun Moore Wang and Junting Zhou and Yuelin Bai and Xingyuan Bu and Chenglin Cai and Liang Chen and Yifan Chen and Chengtuo Cheng and Tianhao Cheng and Keyi Ding and Siming Huang and Yun Huang and Yaoru Li and Yizhe Li and Zhaoqun Li and Tianhao Liang and Chengdong Lin and Hongquan Lin and Yinghao Ma and Zhongyuan Peng and Zifan Peng and Qige Qi and Shi Qiu and Xingwei Qu and Yizhou Tan and Zili Wang and Chenqing Wang and Hao Wang and Yiya Wang and Yubo Wang and Jiajun Xu and Kexin Yang and Ruibin Yuan and Yuanhao Yue and Tianyang Zhan and Chun Zhang and Jingyang Zhang and Xiyue Zhang and Xingjian Zhang and Yue Zhang and Yongchi Zhao and Xiangyu Zheng and Chenghua Zhong and Yang Gao and Zhoujun Li and Dayiheng Liu and Qian Liu and Tianyu Liu and Shiwen Ni and Junran Peng and Yujia Qin and Wenbo Su and Guoyin Wang and Shi Wang and Jian Yang and Min Yang and Meng Cao and Xiang Yue and Zhaoxiang Zhang and Wangchunshu Zhou and Jiaheng Liu and Qunshu Lin and Wenhao Huang and Ge Zhang},
+      year={2025},
+      eprint={2502.14739},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.14739}, 
 }
-```
 
